@@ -30,7 +30,6 @@ class WeatherLocation extends Component {
     
     handleUpdateClick = () => {
         this.setState({
-            city: 'Bogota',
             data: data2
         });
     }
